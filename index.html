@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mq.css">
+    <title>Projeto 001</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <form action="login.php" method="post">
+                    <div>
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail">
+                        <label for="iemail">E-mail</label>
+                    </div>
+                    <div>
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="isenha">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <a href="esqueci.php" class="botao">Esqueci minha senha <i class="material-icons">email</i></a>
+                </form>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
